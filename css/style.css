@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+/* configuración para la cabecera */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 100px;
+}
+
+header img{
+     border-radius: 15px 15px 0 0 ;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0 0 15px 15px;
+    background-color: rgb(255, 180, 6);
+    height: 100px;
+}
+
+header ul li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+   
+}
+
+header ul a{ 
+
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* configuarición de aside */
+
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: gray ;
+    width: 300px;
+    height: 200px;
+
+    border-radius: 15px 15px 0 0 ;
+
+}
+
+form div{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-left: 10px;
+}
+
+form h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+    height: 40px;
+    border-radius: 15px 15px 0 0 ;
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+
+}
+
+button{
+    position: relative;
+    left: 70px;
+    bottom: 10px;
+    background-color: rgb(255, 180, 6);
+    width: 150px;
+    border-radius: 5px;
+    
+}
+
+
+.tipos_banca{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
+
+}
+
+
+.tipos_banca h3{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+}
+
+.tipos_banca ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+}
+
+
+
+.tipos_banca #art2 ul{
+
+    
+    height: 60px;
+}
+
+.tipos_banca a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* configuración de articulos */
+
+main{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#tipos_art{
+    display: flex;
+    gap: 20px;
+   
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#tipos_art article{
+
+    width: 400px;
+    height: 235px;
+    background-color: gray;
+
+
+}
+
+section img {
+    width: 100px;
+    height: 50px;
+}
+
+.tarjetas-info{
+
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+
+.tarjetas-info h3{
+
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+p{
+    margin: 10px;
+}
+
+#a1{
+    border-radius: 20px  0 0 0;
+}
+
+
+#a2{
+    border-radius: 0 0 0 20px;
+}
+
+#a3{
+    border-radius: 0  20px 0 0;
+}
+
+#a4{
+    border-radius: 0  0 20px 0;
+}
+
+
+/* configuración del footer */
+
+footer{
+    
+    color: white;
+    width:auto;
+    height: 100px;
+    border-radius: 0 0 15px 15px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
